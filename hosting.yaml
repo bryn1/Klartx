@@ -1,0 +1,11 @@
+{
+  "_comment": [
+    "vm106 hosting config for svarkor-ai/klartx -- MC#2317. Strict JSON (no yaml lib; comments only here).",
+    "FastAPI (src/main.py:app). exec=server.py binds 0.0.0.0:8150. requirements.txt added (repo had none)."
+  ],
+  "name": "klartx",
+  "type": "service",
+  "root": "apps/klartx",
+  "exec": "server.py",
+  "port": 8150
+}
