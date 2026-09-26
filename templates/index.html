@@ -56,7 +56,7 @@
             statusDiv.style.display = 'block';
             
             try {
-                const response = await fetch('/upload', {
+                const response = await fetch('upload', {
                     method: 'POST',
                     body: formData
                 });
@@ -64,7 +64,7 @@
                 const data = await response.json();
                 
                 // Now analyze
-                const analyzeResponse = await fetch('/analyze', {
+                const analyzeResponse = await fetch('analyze', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: new URLSearchParams({ document_id: data.document_id })
@@ -73,7 +73,7 @@
                 const analyzeData = await analyzeResponse.json();
                 
                 // Get form
-                const formResponse = await fetch('/form', {
+                const formResponse = await fetch('form', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                     body: new URLSearchParams({ document_id: data.document_id })
