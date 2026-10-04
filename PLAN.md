@@ -73,5 +73,5 @@ KlartX är ett throwaway-projekt (släng-app) som tar myndighetsdokument (PDF/bi
 - Local only: localhost:8150
 - Local LLM: llama.cpp
 - Modular: en modul per fil
-- Git-versionerad: origin = git@github.com:svarkor-ai/klartx.git
+- Git-versionerad: origin = git@github.com:bryn1/klartx.git
 - Ingen production-integration (BankID, cloud-OCR, cloud-LLM)

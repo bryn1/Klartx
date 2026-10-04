@@ -1,4 +1,4 @@
-# MC#2317 requirements for svarkor-ai/klartx -- exact pins (vm106 build gate: pkg==version only,
+# MC#2317 requirements for bryn1/klartx -- exact pins (vm106 build gate: pkg==version only,
 # no ranges/extras/inline-comments; <=20 pins, <=4096 bytes). The repo shipped NO requirements.txt;
 # derived from actual imports (fastapi/jinja2/jose/sqlalchemy + UploadFile/Form -> python-multipart).
 fastapi==0.115.0

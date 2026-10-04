@@ -1,4 +1,4 @@
-"""vm106 hosting entrypoint for svarkor-ai/klartx (MC#2317).
+"""vm106 hosting entrypoint for bryn1/klartx (MC#2317).
 
 The vm106 renderer runs `python server.py` with NO PORT env; nginx proxies
 sibbamala.com/klartx/ -> 127.0.0.1:8150. src/main.py only DEFINES the ASGI `app`;
